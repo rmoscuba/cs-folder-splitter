@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DividirCarpeta", "DividirCarpeta.csproj", "{77CE8288-98D3-4F1A-B488-EA465D258786}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DivideCarpetaSetup", "..\DivideCarpetaSetup\DivideCarpetaSetup.vdproj", "{AD370254-A744-422C-9647-22801222EE95}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{77CE8288-98D3-4F1A-B488-EA465D258786}.Debug.ActiveCfg = Debug|.NET
+		{77CE8288-98D3-4F1A-B488-EA465D258786}.Debug.Build.0 = Debug|.NET
+		{77CE8288-98D3-4F1A-B488-EA465D258786}.Release.ActiveCfg = Release|.NET
+		{77CE8288-98D3-4F1A-B488-EA465D258786}.Release.Build.0 = Release|.NET
+		{AD370254-A744-422C-9647-22801222EE95}.Debug.ActiveCfg = Debug
+		{AD370254-A744-422C-9647-22801222EE95}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
